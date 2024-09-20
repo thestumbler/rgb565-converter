@@ -1,10 +1,11 @@
 # rgb565-converter
 
-*This is TheStumbler fork, see below*
+*This is The Stumbler fork, see below*
 
 [![CI](https://github.com/CommanderRedYT/rgb565-converter/actions/workflows/ci.yaml/badge.svg)](https://github.com/CommanderRedYT/rgb565-converter/actions/workflows/ci.yaml)
 
-A simple script to help converting png files to rgb565 (used in [TFT_eSPI](https://github.com/Bodmer/TFT_eSPI))
+A simple script to help converting png files to rgb565 (used in
+[TFT_eSPI](https://github.com/Bodmer/TFT_eSPI))
 
 
 ## Install
@@ -15,7 +16,7 @@ pip install rgb565-converter
 pip3 install rgb565-converter
 ```
 
-## The Stumbler's Branch
+## The Stumbler Fork
 
 While doing some experiments displaying images on TFT using MicroPython,
 I found this rgb565 converter. It didn't exactly do what I needed, so I
@@ -29,6 +30,7 @@ started changing it.
 * added `pyproject.toml` b/c `setup.py` and `pip install -e` *deprecation*
   - see [https://ichard26.github.io/blog/2024/08/whats-new-in-pip-24.2/](
          https://ichard26.github.io/blog/2024/08/whats-new-in-pip-24.2/)
+  - unnecessary if you don't plan to do any local editing of this tool
 
 These changes are very crude and not suitable for a pull request. They 
 are primarily for learning and experimenting. Some (all?) of the
